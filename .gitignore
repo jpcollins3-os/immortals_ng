@@ -1,10 +1,54 @@
+# These are files, folders, and file types that are ignored
+# by GIT, across all of the City Of Immortals projects.
+
+# Compiled source #
+###################
+bin/
+bin/**
 *.class
+
+# Built Modules (exceptions will be made for library jars, which #
+# when present, live elsewhere in the cirectory structure).      #
+#################
+build/
+build/**
+
+# Logs  #
+#########
+log/**
+logs/**
+*.log
+
+# Target directories #
+######################
+target/
+
+# All files ending with ~ (temps)#
+###########################
+*~
+
+# All folders named ~ (more temps) #
+#######################
+~/
+~/**
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+desktop.ini
+ehthumbs.db
+Thumbs.db
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-# Package Files #
-*.jar
+# Package Files  (we generally don't store wars and ears in the   #
+# repository, though we will occasionally store jars that compose #
+# a library referenced by other projects (repositories).          #
 *.war
 *.ear
 
